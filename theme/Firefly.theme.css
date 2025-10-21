@@ -8,7 +8,7 @@
 :root {
   /* Firefly Color Scheme */
   --firefly-bg: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://github.com/JistasuDev/Firefly/blob/main/theme/3.jpg);
-  --firefly-home-icon: url(https://i.imgur.com/knu0gJQ.png);
+  --firefly-home-icon: url(https://github.com/JistasuDev/Firefly/blob/main/theme/logo.png?raw=true);
   --firefly-color1: #66CDAA;
   --firefly-color2: #0e1b16;
   --firefly-color3: #4bb792;
