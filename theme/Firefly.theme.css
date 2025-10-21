@@ -7,11 +7,11 @@
 
 :root {
   /* Firefly Color Scheme */
-  --ocean-bg: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://i.imgur.com/ZGoNvZe.jpeg);
-  --ocean-home-icon: url(https://i.imgur.com/knu0gJQ.png);
-  --ocean-color1: #66CDAA;
-  --ocean-color2: #0e1b16;
-  --ocean-color3: #4bb792;
+  --firefly-bg: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://github.com/JistasuDev/Firefly/blob/main/theme/3.jpg);
+  --firefly-home-icon: url(https://i.imgur.com/knu0gJQ.png);
+  --firefly-color1: #66CDAA;
+  --firefly-color2: #0e1b16;
+  --firefly-color3: #4bb792;
   --text-normal: #e9fff7;
   --text-muted: #b7e2d4;
   --background-blur: 20px;
@@ -27,7 +27,7 @@
 
 /* Main app background */
 .app__160d8 {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -100,7 +100,7 @@ body,
 
 /* Title bar with background */
 .titleBar__421ed {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
 }
 
@@ -120,7 +120,7 @@ body,
 
 /* Text input area */
 .form_f75fb0 .channelTextArea_f75fb0 .textArea__74017 .placeholder__443e5 {
-  color: var(--ocean-color2);
+  color: var(--firefly-color2);
 }
 
 .scrollableContainer__74017 {
@@ -154,18 +154,18 @@ body,
 article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.markup__75297.justifyAuto__623de {
   width: 432px;
   background-color: rgba(20, 40, 30, 0.35);
-  border-left: 3px solid var(--ocean-color1);
+  border-left: 3px solid var(--firefly-color1);
 }
 
 .markup__75297 blockquote, .markup__75297 pre {
   max-width: 100%;
   background-color: rgba(20, 40, 30, 0.5);
-  border-left: 3px solid var(--ocean-color1);
+  border-left: 3px solid var(--firefly-color1);
 }
 
 /* Home icon */
 .wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
-  background: var(--ocean-home-icon) center/cover no-repeat;
+  background: var(--firefly-home-icon) center/cover no-repeat;
   min-width: 50px;
   min-height: 50px;
 }
@@ -190,44 +190,44 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 .icon_fea832,
 .colorStandard-21JIj7,
 .colorHeaderPrimary-jN_yGr {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .clickable__9293f:hover .icon__9293f {
-  color: var(--ocean-color3);
+  color: var(--firefly-color3);
 }
 
 /* Buttons and icons */
 .container__37e49 .button__67645 .contents-18-Yxp path {
-  fill: var(--ocean-color1);
+  fill: var(--firefly-color1);
 }
 
 .attachButton__0923f .contents-18-Yxp path {
-  fill: var(--ocean-color2);
+  fill: var(--firefly-color2);
 }
 .attachButton__0923f:hover .attachButtonPlus__0923f {
-  fill: var(--ocean-color2);
+  fill: var(--firefly-color2);
 }
 
 .attachButtonPlus__0923f {
-  fill: var(--ocean-color2);
+  fill: var(--firefly-color2);
 }
 
 /* Action buttons */
 .actionButton_f8fa06 {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   border-radius: 8px;
   transition: background-color 0.2s ease;
 }
 
 .actionButton_f8fa06:hover {
-  background-color: var(--ocean-color3);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color3);
+  color: var(--firefly-color2);
 }
 
 .actionButton_f8fa06.highlight_f8fa06 {
-  background-color: var(--ocean-color1);
+  background-color: var(--firefly-color1);
 }
 
 /* Server/guild icons */
@@ -247,8 +247,8 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 }
 
 .numberBadge__40d6f {
-  background-color: var(--ocean-color1) !important;
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1) !important;
+  color: var(--firefly-color2);
 }
 
 .expandedFolderBackground-1cujaW {
@@ -260,33 +260,33 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 }
 
 .item__58105 {
-  background-color: var(--ocean-color1);
+  background-color: var(--firefly-color1);
 }
 
 .acronym_fb7739 {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
 }
 
 /* Circle buttons */
 .circleIconButton__5bc7e {
-  color: var(--ocean-color2);
-  background-color: var(--ocean-color1);
+  color: var(--firefly-color2);
+  background-color: var(--firefly-color1);
 }
 .circleIconButton__5bc7e.selected__5bc7e {
-  color: var(--ocean-color1);
-  background-color: var(--ocean-color2);
+  color: var(--firefly-color1);
+  background-color: var(--firefly-color2);
 }
 
 .circleIconButton__5bc7e:hover {
-  background: var(--ocean-color2) !important;
-  color: var(--ocean-color1);
+  background: var(--firefly-color2) !important;
+  color: var(--firefly-color1);
 }
 
 /* Mentions */
 .mention__3b95d {
-  background-color: var(--ocean-color1) !important;
-  color: var(--ocean-color2) !important;
+  background-color: var(--firefly-color1) !important;
+  color: var(--firefly-color2) !important;
   border-radius: 6px;
   padding: 0 4px;
   font-weight: 600;
@@ -296,12 +296,12 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
   background-color: rgba(102, 205, 170, 0.2) !important;
 }
 .mentioned__5126c:before {
-  background-color: var(--ocean-color1);
+  background-color: var(--firefly-color1);
 }
 
 .mention, .channelMention {
-  background: var(--ocean-color2) !important;
-  color: var(--ocean-color1) !important;
+  background: var(--firefly-color2) !important;
+  color: var(--firefly-color1) !important;
 }
 
 /* Username and discriminator */
@@ -312,7 +312,7 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 
 /* Quick switcher */
 .quickswitcher_ac6cb0 {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
   border-radius: 12px;
   border: 1px solid rgba(102, 205, 170, 0.25);
@@ -336,7 +336,7 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 }
 
 .anchor-1MIwyf {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 /* Container and panels */
@@ -349,8 +349,8 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 }
 
 .item__133bf[aria-label="Add Friend"] {
-  color: var(--ocean-color2) !important;
-  background-color: var(--ocean-color1) !important;
+  color: var(--firefly-color2) !important;
+  background-color: var(--firefly-color1) !important;
   border-radius: 8px;
 }
 
@@ -372,10 +372,10 @@ button[aria-label="Send a gift"] {
 
 .winButtons_c38106,
 .winButton__421ed {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
-/* Ocean by X Developer watermark */
+/* firefly by X Developer watermark */
 .title_c38106:after {
   position: absolute;
   left: 0;
@@ -386,7 +386,7 @@ button[aria-label="Send a gift"] {
 
 /* Search results */
 .resultsGroup-1BPR25 {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
   color: var(--text-normal);
   border-radius: 12px;
@@ -394,8 +394,8 @@ button[aria-label="Send a gift"] {
 
 .barButtonMain__0f481,
 .barButtonAlt__0f481 {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   border-radius: 8px;
 }
 
@@ -404,7 +404,7 @@ button[aria-label="Send a gift"] {
 }
 
 #app-mount .container__55c99 .option-2KkUJO .plusIcon-2V7coV {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 #app-mount .container__55c99 .option-2KkUJO.selected-rZcOL- {
@@ -472,31 +472,31 @@ button[aria-label="Send a gift"] {
 }
 
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
-  color: var(--ocean-color2);
-  background-color: var(--ocean-color1);
+  color: var(--firefly-color2);
+  background-color: var(--firefly-color1);
   border-radius: 8px;
 }
 
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
-  background-color: var(--ocean-color3);
+  background-color: var(--firefly-color3);
 }
 
 .size16-rrJ6ag {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
-  color: var(--ocean-color2);
-  background-color: var(--ocean-color1);
+  color: var(--firefly-color2);
+  background-color: var(--firefly-color1);
   border-radius: 8px;
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  background-color: var(--ocean-color3);
+  background-color: var(--firefly-color3);
 }
 
 .description-30xx7u,
@@ -507,15 +507,15 @@ button[aria-label="Send a gift"] {
 /* Settings sidebar */
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
 .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-  color: var(--ocean-color2);
-  background-color: var(--ocean-color1);
+  color: var(--firefly-color2);
+  background-color: var(--firefly-color1);
   border-radius: 8px;
 }
 
 .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),
 .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
-  color: var(--ocean-color2);
-  background-color: var(--ocean-color3);
+  color: var(--firefly-color2);
+  background-color: var(--firefly-color3);
 }
 
 .item-3XjbnG.themed-2-lozF {
@@ -523,36 +523,36 @@ button[aria-label="Send a gift"] {
 }
 
 .header-2Kx1US {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .theme-dark .closeButton_c2b141 {
-  border-color: var(--ocean-color1);
+  border-color: var(--firefly-color1);
 }
 
 /* Server folders and icons */
 .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
 .wrapper__8436d:hover .childWrapper_a6ce15 {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
 }
 
 #bd-pub-button {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   font-weight: bold;
   border-radius: 8px;
 }
 
 #bd-pub-button:hover {
-  background-color: var(--ocean-color3);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color3);
+  color: var(--firefly-color2);
   font-weight: bold;
 }
 
 .button-Jt-tIg {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   font-weight: bold;
   border-radius: 8px;
 }
@@ -564,11 +564,11 @@ button[aria-label="Send a gift"] {
 }
 
 .interactive:hover {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .button__353c4 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 /* Empty states */
@@ -581,7 +581,7 @@ button[aria-label="Send a gift"] {
 }
 
 .header__94b08 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .description-1EvxpH {
@@ -595,14 +595,14 @@ button[aria-label="Send a gift"] {
 
 /* Code blocks and links */
 .markup__75297 code.inline {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
   background-color: rgba(20, 40, 30, 0.5);
   border-radius: 4px;
   padding: 2px 4px;
 }
 
 .markup__75297 a {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
   text-decoration: none;
 }
 
@@ -631,7 +631,7 @@ button[aria-label="Send a gift"] {
 .footer__0eeee,
 .body-1Ukv50,
 .topSection-13QKHs {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
   backdrop-filter: blur(22px);
 }
@@ -656,7 +656,7 @@ button[aria-label="Send a gift"] {
 }
 
 .top-K_jibn .item-3XjbnG {
-  border-bottom-color: var(--ocean-color1);
+  border-bottom-color: var(--firefly-color1);
 }
 
 .connectedAccountName-j0meX4,
@@ -668,24 +668,24 @@ button[aria-label="Send a gift"] {
 }
 
 .lookFilled-1Gx00P.colorGreen-29iAKY {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   border-radius: 8px;
 }
 
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-  background-color: var(--ocean-color3);
+  background-color: var(--firefly-color3);
 }
 
 /* File attachments */
 .fileWrapper__0ccae {
   background-color: rgba(102, 205, 170, 0.2);
-  border-color: var(--ocean-color1);
+  border-color: var(--firefly-color1);
   border-radius: 20px;
 }
 
 .downloadButton__3fb6d {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 /* Message timestamps and content */
@@ -698,14 +698,14 @@ button[aria-label="Send a gift"] {
 .button_f7ecac,
 .button_f7ecac:hover,
 .button_f7ecac.selected_f7ecac {
-  color: var(--ocean-color2);
-  background-color: var(--ocean-color1);
+  color: var(--firefly-color2);
+  background-color: var(--firefly-color1);
   border-radius: 8px;
 }
 
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
-  color: var(--ocean-color1);
-  border-color: var(--ocean-color1);
+  color: var(--firefly-color1);
+  border-color: var(--firefly-color1);
   border-radius: 50px;
 }
 
@@ -724,13 +724,13 @@ button[aria-label="Send a gift"] {
 .circleButton-33AIyY + .circleButton-33AIyY,
 .roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-) .editButton-2P76Jg,
 .roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-) .circleButton-33AIyY {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   border-radius: 8px;
 }
 
 .icon_fb52f0 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .container_d8f25b {
@@ -738,8 +738,8 @@ button[aria-label="Send a gift"] {
 }
 
 .icon_d8f25b {
-  color: var(--ocean-color2);
-  background-color: var(--ocean-color1);
+  color: var(--firefly-color2);
+  background-color: var(--firefly-color1);
 }
 
 /* Input fields */
@@ -754,7 +754,7 @@ button[aria-label="Send a gift"] {
 /* Emoji and sticker picker */
 .contentWrapper__08434,
 .categoryList_c0e32c {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
   backdrop-filter: blur(var(--background-blur));
 }
@@ -778,27 +778,27 @@ button[aria-label="Send a gift"] {
 }
 
 .unicodeShortcut_b9ee0c {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .categoryItemDefaultCategorySelected_b9ee0c,
 .categoryItemDefaultCategorySelected_b9ee0c:hover {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
 }
 
 .navButtonActive__08434,
 .stickerCategoryRecentIcon-16VgYU {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
 }
 
 .navButton__08434 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .navButton__08434:hover {
-  color: var(--ocean-color3);
+  color: var(--firefly-color3);
 }
 
 .packHeader_e94b8c,
@@ -808,7 +808,7 @@ button[aria-label="Send a gift"] {
 
 /* Modals and popouts */
 .theme-dark .root__49fc1 {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
   backdrop-filter: blur(22px);
 }
@@ -822,12 +822,12 @@ button[aria-label="Send a gift"] {
 .ellipsisText-jQS2Ek,
 .channelIcon-1su68_,
 .channelName-GgHzXu {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .theme-dark .selected-2xa993 {
-  color: var(--ocean-color1);
-  border-bottom: 2px solid var(--ocean-color1);
+  color: var(--firefly-color1);
+  border-bottom: 2px solid var(--firefly-color1);
 }
 
 .card-1SdQ2-,
@@ -841,13 +841,13 @@ button[aria-label="Send a gift"] {
 
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookFilled-1GseHa.select-1Ia3hD {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   border-radius: 8px;
 }
 
 .header-1c1AhF {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
 }
 
@@ -864,7 +864,7 @@ button[aria-label="Send a gift"] {
 .clear_fea832 .icon_fea832,
 .tab-2j5AEF,
 .roundButton-2_R5PN {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 /* Messages popout and search */
@@ -874,7 +874,7 @@ button[aria-label="Send a gift"] {
 .messagesPopout__45690,
 .container_d404a3,
 .uploadModal_dbca3c {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
   backdrop-filter: blur(var(--background-blur));
 }
@@ -894,8 +894,8 @@ button[aria-label="Send a gift"] {
 .theme-light .activeButton-LRWFC_,
 .theme-light .activeButton-LRWFC_:hover,
 .endButton-oUxeLG:last-child {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   border-radius: 8px;
 }
 
@@ -920,8 +920,8 @@ button[aria-label="Send a gift"] {
 }
 
 .full-motion .button__292b6 {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   border-radius: 8px;
 }
 
@@ -930,13 +930,13 @@ button[aria-label="Send a gift"] {
 }
 
 .popoutInfo-pKbpvG {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
   backdrop-filter: blur(22px);
 }
 
 .wrapper__260e1 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .users__260e1, .total__260e1 {
@@ -945,28 +945,28 @@ button[aria-label="Send a gift"] {
 
 /* Unread indicators */
 .unread__3b95d {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
 }
 
 .unreadPill__908e2 {
-  background-color: var(--ocean-color1);
+  background-color: var(--firefly-color1);
 }
 
 .unreadPillCapStroke__908e2 {
-  color: var(--ocean-color1);
-  fill: var(--ocean-color1);
+  color: var(--firefly-color1);
+  fill: var(--firefly-color1);
 }
 
 .divider__908e2 {
-  border-color: var(--ocean-color1);
+  border-color: var(--firefly-color1);
 }
 
 /* Permissions modal */
 #permissions-modal-wrapper .header,
 #permissions-modal-wrapper .perm-side,
 #permissions-modal-wrapper .role-side {
-  background-image: var(--ocean-bg);
+  background-image: var(--firefly-bg);
   background-size: cover;
 }
 
@@ -989,7 +989,7 @@ button[aria-label="Send a gift"] {
 .theme-dark .searchOption-351dTI .filter-5YbOzJ,
 .theme-dark .searchOption-351dTI .answer-2fBfuP,
 .resultsGroup-1BPR25 .header-3A13BX {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .container_c8ffbb {
@@ -998,11 +998,11 @@ button[aria-label="Send a gift"] {
 
 .button__24af7,
 .button__67645 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 button.button__67645 .lottieIcon__5eb9b svg path {
-  fill: var(--ocean-color1) !important;
+  fill: var(--firefly-color1) !important;
 }
 
 .wrapper_cb9592.minimum_cb9592 {
@@ -1015,13 +1015,13 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 .colorable_f1ceac.primaryDark_f1ceac,
 .colorable_f1ceac.primaryDark_f1ceac.active_f1ceac,
 .colorable_f1ceac.primaryDark_f1ceac:hover {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
   border-radius: 8px;
 }
 
 .item-1OdjEX {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .fontSize16Padding__74017,
@@ -1077,18 +1077,18 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 .headerText_b3f026,
 .sidebar__23e6b .side_b3f026 .item_b3f026,
 .bd-sidebar-header h2 {
-  color: var(--ocean-color1) !important;
+  color: var(--firefly-color1) !important;
 }
 
 .icon__9293f,
 .title__9293f,
 .icon_a45028,
 .buttonWrapper__24af7 svg {
-  color: var(--ocean-color1) !important;
+  color: var(--firefly-color1) !important;
 }
 
 .sprite__04eed.spriteGreyscale__04eed.active__04eed {
-  background-color: var(--ocean-color1);
+  background-color: var(--firefly-color1);
 }
 
 .theme-dark .themed__9293f {
@@ -1100,7 +1100,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 }
 
 .button__201d5 .contents__201d5 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .container_f369db {
@@ -1116,12 +1116,12 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 }
 
 .contents__201d5.buttonContents_e131a9 .lottieIcon__5eb9b.buttonIcon_e131a9 {
-  --__lottieIconColor: var(--ocean-color1) !important;
+  --__lottieIconColor: var(--firefly-color1) !important;
 }
 
 .reminder-button {
-  background-color: var(--ocean-color1) !important;
-  color: var(--ocean-color2) !important;
+  background-color: var(--firefly-color1) !important;
+  color: var(--firefly-color2) !important;
   border-radius: 8px;
 }
 
@@ -1130,7 +1130,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 }
 
 .popoverReactionHoverBar_f84418 {
-  background-color: var(--ocean-color1) !important;
+  background-color: var(--firefly-color1) !important;
 }
 
 .itemsContainer_ef3116 {
@@ -1152,7 +1152,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 }
 
 .title_c38106 .defaultColor_b717a1 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .content_f75fb0 {
@@ -1174,7 +1174,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 .nameTag__37e49 .title_b6c092,
 .nameTag__37e49 .subtext__339d0 {
-  color: var(--ocean-color1);
+  color: var(--firefly-color1);
 }
 
 .menu_c1e9c4 {
@@ -1194,11 +1194,11 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 }
 
 .title__85643 svg path {
-  fill: var(--ocean-color1) !important;
+  fill: var(--firefly-color1) !important;
 }
 
 .lottieIconColors__5eb9b :not(defs *)[stroke][stroke-opacity] {
-  stroke: var(--ocean-color1) !important;
+  stroke: var(--firefly-color1) !important;
 }
 
 /* Custom scrollbar */
@@ -1218,7 +1218,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   border-radius: 10px !important;
   border: none !important;
   background-clip: content-box !important;
-  background: var(--ocean-color1) !important;
+  background: var(--firefly-color1) !important;
 }
 
 ::-webkit-scrollbar-corner {
@@ -1234,8 +1234,8 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 /* Text selection */
 ::selection {
-  background-color: var(--ocean-color1);
-  color: var(--ocean-color2);
+  background-color: var(--firefly-color1);
+  color: var(--firefly-color2);
 }
 
 /* Font override */
